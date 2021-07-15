@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #6C7A89;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(archlinux3.webp);
+    background-repeat: round;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 300px;
+    height: 350px;
+    background:rgba(50, 50, 50, 65%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.form-inputs{
+
+    position: relative;
+    margin-left: 10px;
+}
+
+.form-inputs p{
+    font-weight: bold;
+    color: skyblue;
+}
+
+.input {
+    border-radius: 5px;   
+}
+
+.form-inputs .submit-form{
+    position: relative;
+    background-color: black ;
+    color:skyblue;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
